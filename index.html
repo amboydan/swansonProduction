@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href = "./css/prodPlot.css" rel='stylesheet'>
+  <link href = "./css/d3-tip.css">
+  <link href = "./css/bootstrap.min.css" rel='stylesheet'>
+</head>
+  <script src="./main/jquery.min.js"></script>
+  <script src="./main/d3.min.js"></script>
+  <script src="./main/lodash.js"></script>
+  <script src="./main/d3-tip.js"></script>
+  <script src="./toolkit/tools.js"></script>
+  <body>
+    <div class = "container-full">
+      <div class = "row">
+        <div class = "col-md-12">
+          <svg class = "pageTop" height = "5"></svg>
+        </div>
+      </div>
+      <div class = "row"  id = "allComponents">
+        <div class = "col-lg-2" id = "listComponents">
+        
+            <div class = 'row'>
+                  <svg id = "listSpaceTop">
+                    <h1 class = "text-lg-center">Wells</h1>
+                  </svg>
+            </div>
+          <div class = 'row d-flex justify-content-center'>
+            <div class = "row">
+                <select id = "selectWell" multiple = "multiple" size = "25"></select>
+            </div>
+          </div>
+          <div class = 'row d-flex justify-content-center'>
+            <div class = "row">
+              <button id = "changeWell" type = "button">Select</button>
+            </div>
+          </div>
+        </div>
+        <div  class = "col-lg-10" id = "prodPlot">
+
+        </div>
+      </div>
+    </div>        
+  </body>
+  <script src="./main/index.js"></script>
+
+</html>

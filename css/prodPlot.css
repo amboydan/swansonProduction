@@ -1,0 +1,105 @@
+.container-full {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#prodPlot{
+  	border: solid darkgrey;
+  	border-width: 2px
+}
+
+#listComponents{
+  	border: solid darkgrey;
+  	border-width: 2px
+}
+
+#Oil{
+  	stroke-width: 3px;
+  	stroke: green;
+}
+
+#Water{
+  	stroke-width: 2.5px;
+  	stroke: blue;
+}
+
+#Gas{
+  	stroke-width: 2.5px;
+  	stroke: red;
+}
+
+#InjGas{
+	stroke-width: 2.5px;
+  	stroke: pink;
+  	stroke-dasharray: 8,3;
+}
+
+#InjWtr{
+	stroke-width: 2.5px;
+  	stroke: purple;
+  	stroke-dasharray: 8,3;
+}
+
+.Oil{
+    stroke-width: 1px;
+    stroke: black;
+    fill:green;
+    opacity: .7;
+}
+
+.Water{
+    stroke-width: 1px;
+    stroke: black;
+    fill:blue;
+    opacity: .7;
+}
+
+.Gas{
+    stroke-width: 1px;
+    stroke: black;
+    fill:red;
+    opacity: .7;
+}
+
+.InjGas{
+  stroke-width: 1px;
+    stroke: black;
+    fill:pink;
+    opacity: .7;
+}
+
+.InjWtr{
+  stroke-width: 1px;
+    stroke: black;
+    fill:purple;
+    opacity: .7;
+}
+.grid .tick{
+	stroke-width: 1;
+	opacity: 0.4;
+}
+
+.grid path{
+	stroke-width: 0;
+}
+
+.y-axis{
+  stroke:black;
+  font-size:14px;
+}
+
+.x-axis{
+  stroke:black;
+  font-size:12px;
+}
+
+.tip-line{
+  stroke:black ;
+  stroke-width:2 ;
+  stroke-dasharray: 8,3 ;
+}
+
+.tip-point{
+  stroke:black ;
+  stroke-width:2 ;
+}

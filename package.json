@@ -1,0 +1,17 @@
+{
+  "name": "version-10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "c3": "^0.7.0",
+    "d3": "^5.9.2",
+    "data-forge": "1.2.1",
+    "express": "^4.16.4",
+    "extend": "^3.0.2",
+    "fs": "0.0.1-security",
+    "jquery": "^3.4.0",
+    "moment": "^2.24.0",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  }
+}
